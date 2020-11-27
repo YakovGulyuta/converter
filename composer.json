@@ -1,0 +1,15 @@
+{
+    "name": "yakov/converter",
+    "require": {
+      "ext-gd": "*",
+      "ext-fileinfo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app",
+            "app/services\\": "app/services",
+            "app/controllers\\": "app/Controllers",
+            "app/models\\": "app/models"
+        }
+    }
+}
